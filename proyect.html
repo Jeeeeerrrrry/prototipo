@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="span">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="proyecto.css">
+  <title> GERDIANA </title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <header id="padre" class="d-flex-row">
+    <div id="header_nav_menu" class="d-flex-row">
+      <i id="hamburguer_menu" class="fa fa-bars"></i>
+      <h4 class="uppercase-text">INFO</h4>
+    </div>
+    <h2 id="header_title" class="uppercase-text">Gerdiana</h2>
+    <div id="header_contact" class="d-flex-row">
+      <h4 class="uppercase-text">Contacto</h4>
+      <i class="fas fa-search"></i>
+    </div>
+  </header>
+
+
+  <section id="padre2"> 
+    <div id="menu-promociones" class="d-flex-row">
+
+      <div class="izquierda">
+        <i class="fas fa-chevron-circle-left"></i>
+      </div>
+
+      <div class="centro"> 
+        <div id="left_triangle"> </div>
+        <div id="promociones"><span class="frase-promociones">Promociones</span> 
+        <span id="puntos-suspensivos">...</span>  
+        </div> 
+        <div id="right_triangle"></div>
+      </div>
+
+      <div class="derecha"> 
+        <i class="fas fa-chevron-circle-right"></i>
+      </div>
+     
+    </div>
+  </section>
+
+  <section id="padre3">
+    <div id="caballeros"> 
+      <i class="fas fa-male"></i>
+      <span id="frase-caballeros"> Caballeros </span>
+    </div>
+    <div id="damas">
+      <i class="fas fa-female"></i>
+      <span id="frase-damas"> Damas </span>  
+    </div>
+    <div id="ninos"> 
+      <i class="fas fa-child"></i>
+      <span id="frase-ninos"> Ninos </span>
+    </div>
+  </section>
+
+  <section class="suscribete">
+    <div class="subtitulo-suscribete">
+      <span class="frase-suscribete"> SUSCRIBETE </span>
+      <i class="fas fa-long-arrow-alt-down"></i>
+    
+    <div class="formulario1">
+      <form class="primer-parte-formulario">
+      <span class="frase-nombre"> Nombre </span> <br>
+      <input type="text" id="input-nombre" size="107"> <br>
+      <div class="clase-direccion">
+        <span class="frase-direccion"> Direccion </span> <br>
+      <input type="text" id="input-direccion" size="107" > <br>
+      </div>
+      </form>
+    </div>
+  </div>
+  
+     
+    <div class="formulario1-1"> 
+      <div class="parte-dos-suscripcion">
+      <form class="segunda-parte-formulario">
+      <span class="frase-correo"> Correo </span> <br>
+      <input type="email" id="input-correo" size="107"> <br>
+      <div class="clase-telefono">
+        <span class="frase-telefono"> Telefono </span> <br>
+        <input type="text" id="input-direccion" size="107" > <br>
+      </div>
+      </form>
+      </div>
+    </div>
+    
+    <div class="div-boton-crear">
+      <form class="boton-1">
+        <input class="boton-crear" type="submit" value=" CREAR ">
+      </form>
+    </div>
+  </section>
+
+  <section class="caja-buscador-zapatos">
+
+    <div class="encabezado-caja-zapatos-general">
+      <div class="caja-buscador">
+        <input type="text" class="search" placeholder=" BUSCADOR DE ZAPATOS EN STOCK">
+        <i class="fas fa-search" id="search-2"></i>
+      </div>
+
+      <div class="caja-compras-home"> 
+       
+        <div class="caja-general-shopping"> 
+          <i class="fas fa-shopping-cart"></i> 
+          <div class="frase-carrito"> Carrito </div>
+      </div>
+       
+        <div class="caja-general-home"> 
+          <i class="fas fa-home"></i>  
+          <div class="frase-home"> Principal </div>
+        </div>
+        
+    </div>
+      
+
+    </div>
+
+    <div class="caja-zapatos-stock"> 
+      <div class="zapato-muestra-1">
+        <img src="https://misfeets.es/1568-large_default/nike-air-jordan-1-negras-blancas.jpg" alt="Modelo: Air Jordan 1 High OG" id="imagen-air-jordan-1-high-og">
+        <span class="nombre-modelo-1"> <strong> Nombre: </strong> <em> Jordan 1 High OG  </em> <br>
+          <strong> Temporada:</strong> <em> Casual </em> <br>
+          <strong> Precio:</strong> <em> $1200 </em> </span>
+      </div>
+    </div>
+
+  </section>
+</body>
+</html>
