@@ -461,7 +461,7 @@ section {
   /* border: 1px solid black; */
 }
 
-.zapato-muestra-1 {
+.paquete-muestra-1 {
   flex-direction: column;
   display: flex;
   border: 3px solid #000;
@@ -470,8 +470,9 @@ section {
   text-align: center;
   font-size: 12px;
   width: 300px;
-  height: 200px;
+  height: 300px;
   align-items: center;
+  justify-content: center;
 }
 
 #imagen-air-jordan-1-high-og {
@@ -482,7 +483,7 @@ section {
 }
 
 .nombre-modelo-1 {
-  display: inline-block;
+/*  display: inline-block;*/
   letter-spacing: 1px;
   font-size: 15px; 
   align-self: center;
